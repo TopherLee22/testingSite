@@ -1,1 +1,2 @@
 Content
+<button type="button" onclick="alert('Hello world!')">Click Me!</button>
