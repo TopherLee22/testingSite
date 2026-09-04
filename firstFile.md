@@ -1,2 +1,4 @@
-Content
-<button type="button" onclick="alert('Hello world!')">Click Me!</button>
+<form action="/action_page.php">
+  <input type="file" id="myFile" name="filename">
+  <input type="submit">
+</form>
