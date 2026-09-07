@@ -4,7 +4,7 @@
 </form>
 
 <form action="/action_page.php">
-   <label for="fname">Youtube link:</label>
   <input type="text" id="lname" name="lname"><br><br>
+  <label for="fname">Youtube link:</label>
   <input type="submit" value="Submit">
 </form>
