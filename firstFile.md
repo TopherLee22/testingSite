@@ -3,4 +3,7 @@
   <input type="submit">
 </form>
 
-
+<form action="/action_page.php">
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
