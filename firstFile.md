@@ -19,6 +19,7 @@ theme: jekyll-theme-Midnight
   </form>
 
   <section id="p1">
+    <div class = "right">
       <span class="rightAlign">This div element is right</span>
     </div>
   </section>
