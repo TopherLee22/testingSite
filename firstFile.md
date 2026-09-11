@@ -17,9 +17,5 @@ theme: jekyll-theme-Midnight
     <input type="submit" value="Submit">
   </form>
 
-  <section id="p1">
-  
-      <span class="rightAlign">This div element is right</span>
-      </section>
-</body>
+ </body>
 
