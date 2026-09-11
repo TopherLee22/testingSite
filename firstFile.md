@@ -1,5 +1,6 @@
 ---
 layout: post
+theme: jekyll-theme-Midnight
 ---
 
 
