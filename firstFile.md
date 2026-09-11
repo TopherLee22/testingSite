@@ -9,6 +9,8 @@
   <input type="submit" value="Submit">
 </form>
 
+<link rel="stylesheet" href="styles.scss">
+
 
 <div class = "right">
    <rightAlign>This div element is right </rightAlign>
