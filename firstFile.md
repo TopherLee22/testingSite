@@ -2,7 +2,11 @@
 layout: post
 theme: jekyll-theme-Midnight
 ---
-
+<head>
+  <meta charset="UTF-8">
+  <title>Form Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
 <html lang="en">
 <body>
