@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="styles.scss">
 
 <section id = "p1">
-  <div id = "right">
+  <div class = "right">
      <rightAlign>This div element is right </rightAlign>
   </div>
 </section>
