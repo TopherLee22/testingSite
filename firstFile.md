@@ -9,7 +9,7 @@ theme: jekyll-theme-Midnight
   <meta charset="UTF-8">
   <title>Form Page</title>
   <!-- Fix 1: Link stylesheets inside <head>, compiled to CSS -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.scss">
 </head>
 <body>
 
@@ -26,7 +26,7 @@ theme: jekyll-theme-Midnight
 
   <section id="p1">
     <!-- Fix 2: Applied rightAlign class to a valid inline element (p or span) -->
-    <div class="right">
+    <div style ="float: right; text-align:right;">
       <span class="rightAlign">This div element is right</span>
     </div>
   </section>
