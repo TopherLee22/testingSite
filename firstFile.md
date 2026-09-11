@@ -5,12 +5,6 @@ theme: jekyll-theme-Midnight
 
 
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Form Page</title>
-  <!-- Fix 1: Link stylesheets inside <head>, compiled to CSS -->
-  <link rel="stylesheet" href="styles.scss">
-</head>
 <body>
 
   <form action="/action_page.php">
@@ -25,8 +19,6 @@ theme: jekyll-theme-Midnight
   </form>
 
   <section id="p1">
-    <!-- Fix 2: Applied rightAlign class to a valid inline element (p or span) -->
-    <div style ="float: right; text-align:right;">
       <span class="rightAlign">This div element is right</span>
     </div>
   </section>
