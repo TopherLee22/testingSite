@@ -2,7 +2,7 @@
 layout: post
 theme: jekyll-theme-Midnight
 ---
-head>
+<head>
   <meta charset="UTF-8">
  
   <!-- Fix 1: Link stylesheets inside <head>, compiled to CSS -->
