@@ -12,6 +12,6 @@
 <link rel="stylesheet" href="styles.scss">
 
 
-<div class = "right">
+<div id = "right">
    <rightAlign>This div element is right </rightAlign>
 </div>
