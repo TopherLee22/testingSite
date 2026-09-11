@@ -2,10 +2,11 @@
 layout: post
 theme: jekyll-theme-Midnight
 ---
-<head>
+head>
   <meta charset="UTF-8">
-  <title>Form Page</title>
-  <link rel="stylesheet" href="styles.css">
+ 
+  <!-- Fix 1: Link stylesheets inside <head>, compiled to CSS -->
+  <link rel="stylesheet" href="styles.scss">
 </head>
 
 <html lang="en">
