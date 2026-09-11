@@ -11,5 +11,5 @@
 
 
 <div class = "right">
-   <p>This div element is right </p>
+   <rightAlign>This div element is right </rightAlign>
 </div>
