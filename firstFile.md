@@ -21,5 +21,5 @@ theme: jekyll-theme-Midnight
   
       <span class="rightAlign">This div element is right</span>
       </section>
-
+</body>
 
