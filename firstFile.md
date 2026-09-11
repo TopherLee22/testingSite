@@ -7,13 +7,14 @@ theme: jekyll-theme-Midnight
 <html lang="en">
 <body>
 <div class = "right">
-  <form action="/action_page.php">
+  <form action="/action_page.php" class = "right">
     <input type="file" accept=".mp3,audio/mpeg" id="myFile" name="filename">
     <input type="submit">
   </form>
 </div>
+  
 <div class = "right">
-  <form action="/action_page.php">
+  <form action="/action_page.php" class = "right">
     <label for="lname">Youtube link:</label>
     <input type="text" id="lname" name="lname"><br><br>
     <input type="submit" value="Submit">
