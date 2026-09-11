@@ -20,7 +20,6 @@ theme: jekyll-theme-Midnight
   <section id="p1">
   
       <span class="rightAlign">This div element is right</span>
-    </div>
-  </section>
+      </section>
 
 
