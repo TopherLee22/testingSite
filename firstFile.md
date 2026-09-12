@@ -5,7 +5,7 @@ theme: jekyll-theme-Midnight
 <style>
 body 
   {
-  background-color: lightblue;
+  background-color: #69655d;
 }
 </style>
 <head>
