@@ -2,6 +2,12 @@
 layout: page
 theme: jekyll-theme-Midnight
 ---
+<style>
+body 
+  {
+  background-color: lightblue;
+}
+</style>
 <head>
   <meta charset="UTF-8">
  
