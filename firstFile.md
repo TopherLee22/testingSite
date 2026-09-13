@@ -25,7 +25,7 @@ body
   </p1>
  
   <p2>
-    <form action="/action_page.php" class = "right">
+    <form action="/action_page.php" class = "right" method = "post">
       <label for="lname">Youtube link:</label>
       <input type="text" id="lname" name="lname"><br><br>
       <input type="submit" value="Submit">
