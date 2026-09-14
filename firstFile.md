@@ -44,6 +44,31 @@ body
 
 
 <script>
+  function convertYoutubeToEmbed(url) {
+  // Regular expression to match standard, mobile, shorts, and shortened youtube links
+  const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=|shorts\/)([^#\&\?]*).*/;
+  const match = url.match(regExp);
+
+  // Check if the match exists and the video ID is exactly 11 characters long
+  const videoId = (match && match[2].length === 11) ? match[2] : null;
+
+  if (videoId) {
+    // Return the standard iframe embed string
+    return `<iframe 
+              width="560" 
+              height="315" 
+              src="https://youtube.com{videoId}" 
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen>
+            </iframe>`;
+  } else {
+    return 'Invalid YouTube URL';
+  }
+}
+
   async function checkRust(e)
   {
     const url = document.getElementById('videoUrl').value;
@@ -51,4 +76,6 @@ body
   
     document.getElementById('videoContainer').innerHTML = embedCode;
   }
+
+  
 </script>
