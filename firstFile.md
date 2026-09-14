@@ -25,7 +25,7 @@ body
   </p1>
  
   <p2>
-   <form action="https://formspree.io/f/your-form-id" method="POST" class = "right">
+   <form form onsubmit="return handleYoutubeSubmit(event)" method="POST" class = "right">
       <label for="lname">Youtube link:</label>
       <input type="text" id="lname" name="lname"><br><br>
       <input type="submit" value="Submit">
@@ -42,3 +42,10 @@ body
 
  </body>
 
+
+<script>
+  async function checkRust(e)
+  {
+    e.preventDefault();
+  }
+</script>
