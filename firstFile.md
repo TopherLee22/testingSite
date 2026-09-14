@@ -46,7 +46,6 @@ body
 <script>
   async function checkRust(e)
   {
-    e.preventDefault();
     const url = document.getElementById('videoUrl').value;
     const embedCode = convertYoutubeToEmbed(url);
   
