@@ -25,7 +25,7 @@ body
   </p1>
  
   <p2>
-   <form form onsubmit="return handleYoutubeSubmit(event)" method="POST" class = "right">
+   <form form onsubmit="return handleYoutubeSubmit(event)" class = "right">
       <label for="lname">Youtube link:</label>
       <input type="text" id="lname" name="lname"><br><br>
       <input type="submit" value="Submit">
