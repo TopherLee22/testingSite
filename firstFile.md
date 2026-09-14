@@ -47,11 +47,24 @@ body
 
   async function checkRust(e)
   {
-    const url = document.getElementById('videoUrl').value;
-    const embedCode = convertYoutubeToEmbed(url);
-  
-    document.getElementById('videoContainer').innerHTML = embedCode;
+    try 
+    {
+      const response = await fetch('https://renderLinkHere.com/products');
+        if (response.ok) 
+        {
+            const data = await response.json(); 
+            console.log(data);
+        } else 
+        {
+            throw new Error('Failed to fetch data');
+        }
+    } catch (error) 
+    {
+        console.error('Error:', error); 
+    }
   }
+
+  //https://www.geeksforgeeks.org/javascript/javascript-fetch-method/ fetch code taken from here
 
   
 </script>
